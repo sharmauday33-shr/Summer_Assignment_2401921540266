@@ -1,9 +1,10 @@
+
+
 class Solution {
 public:
     vector<int> sortedSquares(vector<int>& nums) {
         int n = nums.size();
         vector<int> result(n);
-
         int left = 0;
         int right = n - 1;
         int pos = n - 1;
